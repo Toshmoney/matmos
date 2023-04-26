@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 section{
     display: flex;
     flex-direction: column;
@@ -12,6 +13,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-color: white;
+    /* position: fixed; */
     width: 100%;
     padding: 0 30px;
 }
@@ -41,9 +43,6 @@ nav a li:hover::before{
 nav a li:hover::after{
     width: 100%;
 }
-nav a li:hover{
-    color: #D900FC;
-}
 nav ul{
     display: flex;
     align-items: center;
@@ -62,151 +61,153 @@ nav ul li{
 .logo img{
     height: 10vh;
 }
-.background{
-    background: url(../Images/Rectangle\ 45.png);
+.contract{
+    background: url(../Images/Rectangle\ 45\ \(2\).png);
+    height: 40vh;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 0 100px;
-    gap: 40px;
-}
-.put{
-    display: flex;
-}
-.put button{
-    background-color: #D900FC;
-    padding: 10px 10px;
-    border: none;
-    cursor: pointer;
-    color: white;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-}
-.put input{
-    padding: 8px 10px;
-}
-.about{
-    display: flex;
-    gap: 50px;
     align-items: center;
-    /* justify-content: space-evenly; */
-    /* padding: 50px 150px; */
-}
-.about img{
-    height: 50vh;
-}
-.about button{
-    background-color: #D900FC;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 20px;
-}
-.about button a{
-    text-decoration: none;
+    justify-content: center;
+    text-align: center;
     color: white;
-    font-size: large;
 }
-.center{
+.contract h1{
+    font-size: 40px;
+}
+.contract-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.con{
     display: flex;
     flex-direction: column;
-    padding: 50px 40px;
-    gap: 50px;
+    gap: 20px;
 }
-.us{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.contract-2 h2{
+    color: #D900FC;
 }
-.about-items{
+.contract-2{
     display: flex;
     flex-direction: column;
     gap: 30px;
+    
 }
-.about-items h2{
-    color: #D900FC;
-}
-.background h1{
-    font-size: 40px;
-}
-.background p{
-    font-size: large;
-}
-.service{
+.center{
+    padding: 50px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-}
-.service h1{
-    color: #D900FC;
-    font-size: 30px;
-}
-
-.con{
-    display: flex;
-    gap: 50px;
-
-}
-.type{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.click{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.click ul{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.lists img{
-    height: 10vh;
-}
-.feature{
-    display: flex;
-    flex-direction: column;
-}
-.features-1{
-    display: flex;
     gap: 70px;
-    /* justify-content: space-around; */
-    align-items: center;
 }
-.features-1 img{
-    height: 60vh;
+.down{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
-.mobile-nav{
-    display: none;
+.color{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.color h2{
+    color: #D900FC;
+}
+.seven img{
+    height: 40vh;
+}
+.snap{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.snap img{
+    height: 25vh;
+    width: 100%;
+    /* width: 60%; */
+}
+.snap-1{
+    border: 0.001px solid grey;
+    /* text-align: center/; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* padding: 0 10px; */
+}
+.snap-1 button{
+    background-color: #D900FC;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.btn{
+    padding: 10px  10px;
+}
+.pics{
+    display: flex;
+    justify-content: space-between;
+}
+.test{
+    background-color: #F9F9F9;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 20px;
+    width: 100%;
+}
+.testimony-1{
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    /* padding: 0 30px; */
+}
+.mony img{
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.testimony{
+    /* padding: 100px 150px; */
+    width: 100%;
+}
+.you{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.linear-0{
+    display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: 63px;
-
 }
-.log{
+.on{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    gap: 20px;
 }
-.mobile-nav ul li{
-    list-style: none;
-    font-size: larger;
-    color: #D900FC;
+.linear{
+    background-image: linear-gradient(to right, purple, rgb(214, 170, 214));
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+    text-align: center;
+    color: white;
 }
-.mobile-nav ul a{
+.ton button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    /* color: #D900FC; */
+    background-color: white;
+}
+.ton a{
     text-decoration: none;
-
-} 
-.feature-0 h2{
     color: #D900FC;
-}
-.feature-0 h1{
-    font-size: 30px;
 }
 footer{
     background-color: black;
@@ -249,6 +250,10 @@ footer{
     color:#D900FC;
     cursor: pointer;
 }
+.list-1{
+    display: flex;
+    gap: 50px;
+}
 .social{
     display: flex;
     align-items: center;
@@ -256,93 +261,30 @@ footer{
     padding: 0 50px;
     justify-content: space-evenly;
 }
-.toggle button{
-    display: none;
-}
 
 .icon{
     display: flex;
     gap: 30px;
 }
-.feat{
-    background-color: #F9F9F9;
-    display: flex;
-    gap: 70px;
-    /* justify-content: space-around; */
-    align-items: center;
-    padding: 50px;
-}
-.feat img{
-    height: 60vh;
-}
-.feat-1{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-.feat-2{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-.feat button{
-    background-color: #F305F8;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-}
-.feat button a{
-    text-decoration: none;
-    color: white;
-}
-.test{
-    background-color: #F9F9F9;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    gap: 20px;
-    width: 100%;
-}
-.testimony-1{
-    display: flex;
-    gap: 40px;
-    width: 100%;
-    /* padding: 0 30px; */
-}
-.mony img{
-    position: relative;
-    top: 50px;
-    left: 20px;
-}
-.testimony{
-    /* padding: 100px 150px; */
-    width: 100%;
-}
-.you{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-.last{
-    background: url(../Images/Rectangle\ 63.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    display: flex;
-    flex-direction: column;
+.mobile-nav{
+    display: none;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    height: 60vh;
+    position: absolute;
+    top: 63px;
+
 }
-.last-1{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+.mobile-nav ul li{
+    list-style: none;
+    font-size: larger;
+    color: #D900FC;
 }
+.mobile-nav ul a{
+    text-decoration: none;
+
+} 
 .toggle button{
+    display: none;
     padding: 5px 20px;
     background: white;
 }
@@ -352,38 +294,23 @@ footer{
     nav ul{
         display: none;
     }
-    .about{
+    .contract-1{
         flex-direction: column-reverse;
-        width: 100%;
     }
-    .con{
+    .snap{
         flex-direction: column;
     }
-    .feature{
+    .pics{
         flex-direction: column;
-    }
-    .features-1{
-        flex-direction: column;
-    }
-    .feat{
-        flex-direction: column-reverse;
     }
     .testimony-1{
         flex-direction: column;
-        width: 100%;
-    }
-    .you{
-        width: 100%;
     }
     .mamtos{
         flex-direction: column;
     }
-    .social{
-        flex-direction: column;
-    }
-    footer{
-        flex-direction: column;
-        padding: 10px 30px;
+    .seven{
+        width: 100%;
     }
     .mobile-nav{
         display: flex;
@@ -400,7 +327,7 @@ footer{
     }
     .display{
         display: flex;
-        height: 100vh;
+        height: 40vh;
         background-color: gray;
         position: absolute;
         top:65px;
