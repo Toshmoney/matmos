@@ -1,0 +1,363 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.frontpage{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.frontpage h1{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 20px 30px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    transition: ease-in-out .7s;
+    padding: 7px 10px;
+    border-radius: 10px;
+}
+nav a:hover{
+    color:violet;
+    align-items: center;
+    cursor: pointer;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 17px;
+    padding: 10px 40px;
+}
+nav ul li{
+    list-style-type: none;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 0;
+}
+.mamtos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.list li{
+    list-style: none;
+}
+.list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.list ul a{
+    text-decoration: none;
+    color: white;
+}
+.list ul a:hover{
+    text-decoration: none;
+    color:violet;
+}
+.social{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 0 50px;
+    justify-content: space-evenly;
+}
+
+.icon{
+    display: flex;
+    gap: 30px;
+}
+.frontpage{
+    background: url(../images/Rectangle\ 45.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+.intro{
+    display: flex;
+    padding-top: 70px;
+    justify-content: space-around;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.intro-texts h3{
+    color: palevioletred;
+}
+.intro-texts h1{
+    font-size: 30px;
+    padding: 15px 0;
+}
+.group{
+    border: 1px solid wheat;
+    width:20.1rem ;
+    margin-right: 35px;
+    cursor: pointer;
+}
+.consultancyplans{
+    padding: 100px 80px;
+}
+.consultancyplans h3{
+    color: palevioletred;
+    padding-bottom: 20px;
+}
+.consultancyplans h1{
+    font-size: 30px;
+}
+.consultancyplans h3, h1{
+    padding-left: 25px;
+}
+.relatedplans{
+    padding: 100px 80px;
+
+}
+.relatedplans h3{
+    color: palevioletred;
+    padding-bottom: 20px;
+    padding-left: 25px;
+}
+.relatedplans h1{
+    font-size: 30px;
+}
+.otherplans{
+    padding: 100px 80px;
+}
+.otherplans h3{
+    color: palevioletred;
+    padding-bottom: 20px;
+    padding-left: 25px;
+}
+.otherplans h1{
+    font-size: 30px;
+}
+.testimonies h3{
+    color: palevioletred;
+    padding-bottom: 20px;
+    padding-left: 23px;
+
+}
+.testimonies h1{
+    font-size: 40px;
+    font-weight:700;
+}
+.testimonies{
+    padding: 100px 80px;
+}
+.serviceimgs{
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+    padding-left: 40px;
+}
+.serviceimgs button{
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: none;
+    background-color: blueviolet;
+    margin-top: 15px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.serviceimgs button:hover{
+    background-color:black;
+    color: blueviolet;
+
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    padding: 7rem;
+    cursor: pointer;
+}
+.logos img{
+    width: 100%;
+    margin-right: 85px;
+}
+.clients{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.testimoniess{
+    padding: 100px;
+}
+.betterlife{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 95, 228);
+    margin:60px 120px;
+    color: white;
+    padding: 70px;
+}
+.betterlife h2{
+    padding: 20px;
+    font-size: 30px;
+}
+.betterlife button{
+    padding: 15px 20px;
+    background-color: white;
+    color: darkmagenta;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.betterlife button:hover{
+    background-color: black;
+    color:mediumorchid;
+}
+.logodown{
+    padding-top: 100px;
+}
+.testimoniess h3{
+    padding-bottom: 20px;
+}
+.testimoniess h2{
+    padding-bottom: 30px;
+}
+.group h1{
+    text-align: center;
+}
+.mobile-nav{
+    display: none;
+}
+.mobile-btn{
+    display: none;
+}
+.mobile-nav a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    display: none;
+}
+
+
+
+
+@media screen and (max-width:950px) {
+    .mobile-nav{
+        height:0;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background-color:black;
+        color:white;
+        transition: ease-in .9s;
+        position: absolute;
+        left: 38%;
+        top: 5%;
+        padding: 0 10px;
+        
+    }
+    .logo{
+        display: block;
+        position: absolute;
+        right: 5%;
+    }
+    .mobile{
+        display: flex;
+    }
+    .mobile-btn{
+        display: block;
+        padding: 7px 12px;
+        margin-left:15px ;
+        border: 0;
+        /* margin-top: 25px; */
+       
+        
+    }
+    .show-nav{
+        height: 20vh;
+    }
+   
+    nav{
+        display: none;
+    }
+    .intro{
+        padding-right: 15px;
+    }
+    .mamtos{
+        flex-direction: column;
+    }
+    .social{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+        padding: 10px 30px;
+    }
+    .intro{
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    .serviceimgs{
+        flex-direction: column;
+        margin-right: 50px;
+
+    }
+    .group{
+        margin-bottom: 30px;
+    }
+    .intro-texts{
+        margin-bottom: 20px;
+    }
+    .logos{
+        flex-direction: column;
+    }
+    .logos img{
+        margin-bottom: 120px;
+        height: 30vh;
+        width: 100%;
+    }
+    .group{
+        margin-bottom: 40px;
+    }
+    .clients{
+        flex-direction: column;
+    }
+    .frontpage{
+        padding-top: 40px;
+    }
+    .betterlife button{
+        padding: 15px;
+    }
+}
